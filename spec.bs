@@ -160,7 +160,7 @@ The "<a><code>execution-while-out-of-viewport</code></a>" policy controls whethe
 tasks should execute for [=nested browsing contexts=] whose [=browsing context container=] does not intersect the [=viewport=] according
 to [=compute the intersection of a target element and the root=].
 
-[[#mod]] accomplishes this by placing the document (and its decendants) in a [=/frozen=] state when the following
+[[#mod]] accomplishes this by placing the document (and its descendants) in a [=/frozen=] state when the following
 conditions have been met:
  * the [=iframe load event steps=] have been run;
  * the policy is disabled for the document; and
